@@ -26,44 +26,44 @@ Schema and database
 In order to import those data into a new database, star Schema and an initial database will be established. 
 Tables are created by the ’create table’ syntax in SQL, 1 fact table, 4 dimensional table:
 Songplays (from log data which is related to the song_plays, by selecting records of the song’s page under ‘NextSong’)
-Songplay_id serial primary key
-Start_time timestamp 
-User_id varchar
-Level varchar 
-Song_id varchar
-Artist_id varchar
-Session_id int
-Location
-User_agent varchar
-Users(information of the users in sparkify) 
-User_id int primary key
-First_name varchar
-Last_name varchar
-Gender varchar
-Level varchar
-Songs (songs’ information in the database)
-Song_id int primary key,
-First_name varchar
-Last_varchar
-Gender varchar
-Level varchar
+*Songplay_id serial primary key
+*Start_time timestamp 
+*User_id varchar
+*Level varchar 
+*Song_id varchar
+*Artist_id varchar
+*Session_id int
+*Location
+*User_agent varchar
+*Users(information of the users in sparkify) 
+*User_id int primary key
+*First_name varchar
+*Last_name varchar
+*Gender varchar
+*Level varchar
+*Songs (songs’ information in the database)
+*Song_id int primary key,
+*First_name varchar
+*Last_varchar
+*Gender varchar
+*Level varchar
 
 Artists (artists’ information in the database)
-Artist_id varchar primary key
-Artist_name varchar
-Artist_location varchar
-artist_latitude float, 
-artist_longitude float
+*Artist_id varchar primary key
+*Artist_name varchar
+*Artist_location varchar
+*artist_latitude float, 
+*artist_longitude float
 
 Times:(the timestamp of the song records, broken downs under different date and times units)
-start_time timestamp primary key
-hour int not null, 
-day int not null, 
-week int not null, 
-month int not null, 
-year int not null, 
-weekday int not null
-ETL
+*start_time timestamp primary key
+*hour int not null, 
+*day int not null, 
+*week int not null, 
+*month int not null, 
+*year int not null, 
+*weekday int not null
+*ETL
 Song and artists tables
 *Insert Records under the SQL Was built to connect connected the json data into the tables. 
 
@@ -73,8 +73,8 @@ Extracting all the files from JSON files by using get_files function, pd.read_js
 
 Inserting the data into the created table row by row by using:  
 
-cur.execute(song_table_insert, song_data) #and  replaced by (artist_table_insert, artist_data)
-conn.commit()
+'''cur.execute(song_table_insert, song_data) #and  replaced by (artist_table_insert, artist_data)
+conn.commit()'''
 
 
 Time and user tables 
