@@ -7,7 +7,7 @@ By connecting Sparkify could significantly process of music data much faster whi
 
 Simple analysis could be completed though simple SQL syntax including ‘Aggregate sum, groupby.’ Or more complex case, the data could be extracted and build a classification model in Machine learning. As I mentioned above, using python and sparkify could provide a much faster analysis which contain the elements of ‘Big Data’, this is the most important purpose of using Sparkify and python under this Data Modelling project. 
 
-## 2.	State and justify your database schema design and ETL pipeline.
+## 2.State and justify your database schema design and ETL pipeline.
 
 **Song Dataset**
 
@@ -75,7 +75,7 @@ Tables are created by the ’create table’ syntax in SQL, 1 fact table, 4 dime
 * month int not null, 
 * year int not null, 
 * weekday int not null
-#### ETL
+### ETL
 **Song and artists tables**
 
 * Insert Records under the SQL Was built to connect connected the json data into the tables. 
@@ -105,9 +105,9 @@ All the information provided by the instruction was followed to select all the r
 
 
 
-**Annex**
 
-File Structure and steps
+
+#### File Structure and steps
 
 1.	test.ipynb displays the first few rows of each table to let you check your database.
 2.	create_tables.py drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.
