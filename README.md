@@ -31,39 +31,39 @@ Songplays (from log data which is related to the song_plays, by selecting record
 * User_id varchar
 * Level varchar 
 * Song_id varchar
-*Artist_id varchar
-*Session_id int
-*Location
-*User_agent varchar
-*Users(information of the users in sparkify) 
-*User_id int primary key
-*First_name varchar
-*Last_name varchar
-*Gender varchar
-*Level varchar
-*Songs (songs’ information in the database)
-*Song_id int primary key,
-*First_name varchar
-*Last_varchar
-*Gender varchar
-*Level varchar
+* Artist_id varchar
+* Session_id int
+* Location
+* User_agent varchar
+* Users(information of the users in sparkify) 
+* User_id int primary key
+* First_name varchar
+* Last_name varchar
+* Gender varchar
+* Level varchar
+* Songs (songs’ information in the database)
+* Song_id int primary key,
+* First_name varchar
+* Last_varchar
+* Gender varchar
+* Level varchar
 
 Artists (artists’ information in the database)
-*Artist_id varchar primary key
-*Artist_name varchar
-*Artist_location varchar
-*artist_latitude float, 
-*artist_longitude float
+* Artist_id varchar primary key
+* Artist_name varchar
+* Artist_location varchar
+* artist_latitude float, 
+* artist_longitude float
 
 Times:(the timestamp of the song records, broken downs under different date and times units)
-*start_time timestamp primary key
-*hour int not null, 
-*day int not null, 
-*week int not null, 
-*month int not null, 
-*year int not null, 
-*weekday int not null
-*ETL
+* start_time timestamp primary key
+* hour int not null, 
+* day int not null, 
+* week int not null, 
+* month int not null, 
+* year int not null, 
+* weekday int not null
+#### ETL
 Song and artists tables
 *Insert Records under the SQL Was built to connect connected the json data into the tables. 
 
@@ -93,7 +93,7 @@ All the information provided by the instruction was followed to select all the r
 
 
 
-### Annex:
+##### Annex:
 
 File Structure and steps
 
