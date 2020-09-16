@@ -1,4 +1,4 @@
-# 1.Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.</font>
+# 1.Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.
 
 The purpose of this project is to demonstrate the skills of setting up database via SQL and connect the pipeline to the database in Python. 
 In term of startup, the engineer needs to set up databases, by breaking it down into several tables in order to keep the data precisely for the analysis by the Data Scientist or Data analysis, which could reduce their workloads significantly for example to implement fast aggregations and simplify queries, therefore, Star schema has been used in order to achieve this goal. 
@@ -7,7 +7,7 @@ By connecting Sparkify could significantly process of music data much faster whi
 
 Simple analysis could be completed though simple SQL syntax including ‘Aggregate sum, groupby.’ Or more complex case, the data could be extracted and build a classification model in Machine learning. As I mentioned above, using python and sparkify could provide a much faster analysis which contain the elements of ‘Big Data’, this is the most important purpose of using Sparkify and python under this Data Modelling project. 
 
-## 2.State and justify your database schema design and ETL pipeline.
+# 2.State and justify your database schema design and ETL pipeline.
 
 **Song Dataset**
 
@@ -75,7 +75,7 @@ Tables are created by the ’create table’ syntax in SQL, 1 fact table, 4 dime
 * month int not null, 
 * year int not null, 
 * weekday int not null
-### 3.ETL
+# 3.ETL
 **Song and artists tables**
 
 * Insert Records under the SQL Was built to connect connected the json data into the tables. 
@@ -107,7 +107,7 @@ All the information provided by the instruction was followed to select all the r
 
 
 
-#### 4.File Structure and steps
+# 4.File Structure and steps
 
 1.	test.ipynb displays the first few rows of each table to let you check your database.
 2.	create_tables.py drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.
@@ -116,7 +116,7 @@ All the information provided by the instruction was followed to select all the r
 5.	sql_queries.py contains all your sql queries, and is imported into the last three files above.
 6.	README.md provides discussion on your project.
 
-##### 5.Below are steps you can follow to complete the project
+# 5.Below are steps you can follow to complete the project
 
 **Create Tables**
 
