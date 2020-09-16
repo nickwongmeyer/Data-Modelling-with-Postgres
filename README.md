@@ -1,4 +1,4 @@
-# Project1 Date Modelling with Postgres
+# Project1- Date Modelling with Postgres
 
 ## 1.Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.
 
