@@ -1,4 +1,4 @@
-1.	Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.
+<header>1.	Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.</header>
 
 The purpose of this project is to demonstrate the skills of setting up database via SQL and connect the pipeline to the database in Python. 
 In term of startup, the engineer needs to set up databases, by breaking it down into several tables in order to keep the data precisely for the analysis by the Data Scientist or Data analysis, which could reduce their workloads significantly for example to implement fast aggregations and simplify queries, therefore, Star schema has been used in order to achieve this goal. 
