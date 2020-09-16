@@ -86,7 +86,7 @@ Extracting all the files from JSON files by using get_files function, pd.read_js
 
 Inserting the data into the created table row by row by using:  
 
-```cur.execute(song_table_insert, song_data) #and  replaced by (artist_table_insert, artist_data) conn.commit()```
+```cur.execute(song_table_insert, song_data)```  ```replaced by (artist_table_insert, artist_data) conn.commit()```
 
 
 **Time and user tables** 
