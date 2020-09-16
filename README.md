@@ -116,9 +116,10 @@ All the information provided by the instruction was followed to select all the r
 5.	sql_queries.py contains all your sql queries, and is imported into the last three files above.
 6.	README.md provides discussion on your project.
 
-##### 5.Below are steps you can follow to complete the project:
+##### 5.Below are steps you can follow to complete the project
 
 **Create Tables**
+
 1.	Write CREATE statements in sql_queries.py to create each table.
 2.	Write DROP statements in sql_queries.py to drop each table if it exists.
 3.	Run create_tables.py to create your database and tables.
