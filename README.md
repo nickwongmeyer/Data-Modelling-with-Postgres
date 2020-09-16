@@ -1,4 +1,4 @@
-#1.	Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.</header>
+# 1.	Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.</header>
 
 The purpose of this project is to demonstrate the skills of setting up database via SQL and connect the pipeline to the database in Python. 
 In term of startup, the engineer needs to set up databases, by breaking it down into several tables in order to keep the data precisely for the analysis by the Data Scientist or Data analysis, which could reduce their workloads significantly for example to implement fast aggregations and simplify queries, therefore, Star schema has been used in order to achieve this goal. 
@@ -7,7 +7,7 @@ By connecting Sparkify could significantly process of music data much faster whi
 
 Simple analysis could be completed though simple SQL syntax including ‘Aggregate sum, groupby.’ Or more complex case, the data could be extracted and build a classification model in Machine learning. As I mentioned above, using python and sparkify could provide a much faster analysis which contain the elements of ‘Big Data’, this is the most important purpose of using Sparkify and python under this Data Modelling project. 
 
-#2.	State and justify your database schema design and ETL pipeline.
+## 2.	State and justify your database schema design and ETL pipeline.
 
 Song Dataset
 The first dataset is a subset of real data from the Million Song Dataset. Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
@@ -93,7 +93,7 @@ All the information provided by the instruction was followed to select all the r
 
 
 
-#Annex:
+### Annex:
 
 File Structure and steps
 
