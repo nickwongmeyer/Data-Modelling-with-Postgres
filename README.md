@@ -23,6 +23,7 @@ The log files in the dataset you'll be working with are partitioned by year and 
 
 
 Schema and database
+
 In order to import those data into a new database, star Schema and an initial database will be established. 
 Tables are created by the ’create table’ syntax in SQL, 1 fact table, 4 dimensional table:
 Songplays (from log data which is related to the song_plays, by selecting records of the song’s page under ‘NextSong’)
